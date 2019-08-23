@@ -23,7 +23,7 @@ module.exports =
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "fa88e7f93923f640e620";
+/******/ 	var hotCurrentHash = "850d980edbea9ff00813";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -955,8 +955,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom_Switch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom/Switch */ "react-router-dom/Switch");
 /* harmony import */ var react_router_dom_Switch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_router_dom_Switch__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Home */ "./src/Home.js");
-/* harmony import */ var _App_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./App.scss */ "./src/App.scss");
-/* harmony import */ var _App_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_App_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _styles_App_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/App.scss */ "./src/styles/App.scss");
+/* harmony import */ var _styles_App_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_App_scss__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/oreo/Projets/create_appeo/src/App.js";
 
 
@@ -985,17 +985,6 @@ var App = function App() {
 
 /***/ }),
 
-/***/ "./src/App.scss":
-/*!**********************!*\
-  !*** ./src/App.scss ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./src/Home.js":
 /*!*********************!*\
   !*** ./src/Home.js ***!
@@ -1017,10 +1006,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _react_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./react.svg */ "./src/react.svg");
-/* harmony import */ var _react_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_react_svg__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _Home_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Home.scss */ "./src/Home.scss");
-/* harmony import */ var _Home_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Home_scss__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ressources/logo/react.svg */ "./src/ressources/logo/react.svg");
+/* harmony import */ var _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _styles_Home_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./styles/Home.scss */ "./src/styles/Home.scss");
+/* harmony import */ var _styles_Home_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_scss__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -1058,7 +1047,7 @@ function (_React$Component) {
           lineNumber: 9
         }
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: _react_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
+        src: _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
         className: "Home-logo",
         alt: "logo",
         __source: {
@@ -1136,17 +1125,6 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./src/Home.scss":
-/*!***********************!*\
-  !*** ./src/Home.scss ***!
-  \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -1190,10 +1168,10 @@ if (true) {
 
 /***/ }),
 
-/***/ "./src/react.svg":
-/*!***********************!*\
-  !*** ./src/react.svg ***!
-  \***********************/
+/***/ "./src/ressources/logo/react.svg":
+/*!***************************************!*\
+  !*** ./src/ressources/logo/react.svg ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1252,6 +1230,28 @@ server.disable('x-powered-by').use(express__WEBPACK_IMPORTED_MODULE_3___default.
   }
 });
 /* harmony default export */ __webpack_exports__["default"] = (server);
+
+/***/ }),
+
+/***/ "./src/styles/App.scss":
+/*!*****************************!*\
+  !*** ./src/styles/App.scss ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/styles/Home.scss":
+/*!******************************!*\
+  !*** ./src/styles/Home.scss ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 

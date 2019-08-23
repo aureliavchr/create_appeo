@@ -9,6 +9,7 @@
     "start:prod": "NODE_ENV=production node build/server.js"
   },
   "dependencies": {
+    "eslint": "^6.2.1",
     "express": "^4.15.2",
     "razzle": "^3.0.0",
     "razzle-plugin-scss": "^3.0.0",

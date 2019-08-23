@@ -1,0 +1,6 @@
+{
+    "extends": "react-app",
+    "rules": {
+      // modify default rules
+    }
+}

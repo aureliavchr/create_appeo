@@ -11,6 +11,6 @@ describe('<App />', () => {
         <App />
       </MemoryRouter>,
       div
-    );
+    )
   });
 });

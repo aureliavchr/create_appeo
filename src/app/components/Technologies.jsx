@@ -7,7 +7,7 @@ class Technologies extends Component {
         return (
             <div>
                 <p className="Home-intro">
-                    A all React's Web App <code>working environment</code> with the following technologies:
+                    A all React's Web App working environment with the following technologies:
                 </p>
                 <ul className="Home-resources">
                     <li>

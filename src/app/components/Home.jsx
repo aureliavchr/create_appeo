@@ -1,5 +1,6 @@
 import React from 'react';
 import Technologies from './Technologies';
+import Counter from './Counter';
 import logo from '../../ressources/logo/react.svg';
 import '../../styles/Home.scss';
 
@@ -12,6 +13,7 @@ class Home extends React.Component {
           <h2>Welcome to Create_appeo</h2>
         </div>
         <Technologies />
+        <Counter />
       </div>
     );
   }

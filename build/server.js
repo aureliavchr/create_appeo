@@ -23,7 +23,7 @@ module.exports =
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "2bf368ee141707927c9d";
+/******/ 	var hotCurrentHash = "b7572261d4b4dd59348c";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -985,6 +985,74 @@ var App = function App() {
 
 /***/ }),
 
+/***/ "./src/app/components/Counter.jsx":
+/*!****************************************!*\
+  !*** ./src/app/components/Counter.jsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "@babel/runtime/helpers/classCallCheck");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "@babel/runtime/helpers/createClass");
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "@babel/runtime/helpers/possibleConstructorReturn");
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "@babel/runtime/helpers/getPrototypeOf");
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "@babel/runtime/helpers/inherits");
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _styles_Home_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/Home.scss */ "./src/styles/Home.scss");
+/* harmony import */ var _styles_Home_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_scss__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+var _jsxFileName = "/Users/oreo/Projets/create_appeo/src/app/components/Counter.jsx";
+ //styles
+
+
+
+var Counter =
+/*#__PURE__*/
+function (_Component) {
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default()(Counter, _Component);
+
+  function Counter() {
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Counter);
+
+    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default()(Counter).apply(this, arguments));
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Counter, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        }
+      }, "Plop"));
+    }
+  }]);
+
+  return Counter;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Counter);
+
+/***/ }),
+
 /***/ "./src/app/components/Home.jsx":
 /*!*************************************!*\
   !*** ./src/app/components/Home.jsx ***!
@@ -1007,16 +1075,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _Technologies__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Technologies */ "./src/app/components/Technologies.jsx");
-/* harmony import */ var _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../ressources/logo/react.svg */ "./src/ressources/logo/react.svg");
-/* harmony import */ var _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _styles_Home_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../styles/Home.scss */ "./src/styles/Home.scss");
-/* harmony import */ var _styles_Home_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_scss__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _Counter__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Counter */ "./src/app/components/Counter.jsx");
+/* harmony import */ var _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../ressources/logo/react.svg */ "./src/ressources/logo/react.svg");
+/* harmony import */ var _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _styles_Home_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../styles/Home.scss */ "./src/styles/Home.scss");
+/* harmony import */ var _styles_Home_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_scss__WEBPACK_IMPORTED_MODULE_9__);
 
 
 
 
 
 var _jsxFileName = "/Users/oreo/Projets/create_appeo/src/app/components/Home.jsx";
+
 
 
 
@@ -1040,31 +1110,36 @@ function (_React$Component) {
         className: "Home",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         }
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "Home-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         }
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_7___default.a,
+        src: _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_8___default.a,
         className: "Home-logo",
         alt: "logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         }
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         }
       }, "Welcome to Create_appeo")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Technologies__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 15
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Counter__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
         }
       }));
     }
@@ -1135,12 +1210,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 9
         }
-      }, "A all React's Web App ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("code", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        }
-      }, "working environment"), " with the following technologies:"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
+      }, "A all React's Web App working environment with the following technologies:"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
         className: "Home-resources",
         __source: {
           fileName: _jsxFileName,

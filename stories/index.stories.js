@@ -18,6 +18,6 @@ storiesOf('Button', module)
       </span>
     </Button>
   ));
-
+ 
 storiesOf('Plop', module)
   .add('Home', () => <Home />);

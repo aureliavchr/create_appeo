@@ -6,7 +6,7 @@ class Counter extends Component {
     render() {
         return (
             <div>
-                <p>Plop</p>
+                <p>Ici, il y aura un boutton Redux</p>
             </div>
         )
     };

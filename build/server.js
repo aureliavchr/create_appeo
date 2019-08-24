@@ -23,7 +23,7 @@ module.exports =
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "b7572261d4b4dd59348c";
+/******/ 	var hotCurrentHash = "df5302f9f0cd770c00e6";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1042,7 +1042,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 9
         }
-      }, "Plop"));
+      }, "Ici, il y aura un boutton Redux"));
     }
   }]);
 

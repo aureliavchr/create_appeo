@@ -23,7 +23,7 @@ module.exports =
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "dbbf9a1981f51d6f09f1";
+/******/ 	var hotCurrentHash = "486b1b34d72fea31980b";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1442,27 +1442,27 @@ var _jsxFileName = "/Users/oreo/Projets/create_appeo/src/server.js";
 
 var assets = __webpack_require__(/*! ./build/assets.json */ "./build/assets.json");
 
+var store = Object(redux__WEBPACK_IMPORTED_MODULE_5__["createStore"])(_reducers_counter__WEBPACK_IMPORTED_MODULE_7__["default"]);
 var server = express__WEBPACK_IMPORTED_MODULE_3___default()();
 server.disable('x-powered-by').use(express__WEBPACK_IMPORTED_MODULE_3___default.a["static"]("/Users/oreo/Projets/create_appeo/public")).get('/*', function (req, res) {
   var context = {};
-  var store = Object(redux__WEBPACK_IMPORTED_MODULE_5__["createStore"])(_reducers_counter__WEBPACK_IMPORTED_MODULE_7__["default"]);
   var markup = Object(react_dom_server__WEBPACK_IMPORTED_MODULE_4__["renderToString"])(react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_6__["Provider"], {
     store: store,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     }
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["StaticRouter"], {
     context: context,
     location: req.url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     }
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_0__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     }
   }))));
 

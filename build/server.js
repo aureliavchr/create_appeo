@@ -23,7 +23,7 @@ module.exports =
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "f82f7ce38429a9e3434e";
+/******/ 	var hotCurrentHash = "d35d7a719e9aa4f93c41";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1069,6 +1069,11 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 17
         }
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_ReduxCounterContainer__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
       }));
     }
   }]);
@@ -1362,6 +1367,35 @@ if (true) {
 
 /***/ }),
 
+/***/ "./src/reducers/counter.js":
+/*!*********************************!*\
+  !*** ./src/reducers/counter.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var counter = function counter() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case 'INCREMENT':
+      return state = state + 1;
+
+    case 'DECREMENT':
+      return state = state - 1;
+
+    default:
+      return state;
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (counter);
+
+/***/ }),
+
 /***/ "./src/ressources/logo/react.svg":
 /*!***************************************!*\
   !*** ./src/ressources/logo/react.svg ***!
@@ -1389,9 +1423,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var express__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! express */ "express");
 /* harmony import */ var express__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-dom/server */ "react-dom/server");
-/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_dom_server__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-dom/server */ "react-dom/server");
+/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_dom_server__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _reducers_counter__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./reducers/counter */ "./src/reducers/counter.js");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! redux */ "redux");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_7__);
 var _jsxFileName = "/Users/oreo/Projets/create_appeo/src/server.js";
+
+
+
 
 
 
@@ -1400,22 +1442,29 @@ var _jsxFileName = "/Users/oreo/Projets/create_appeo/src/server.js";
 
 var assets = __webpack_require__(/*! ./build/assets.json */ "./build/assets.json");
 
+var store = Object(redux__WEBPACK_IMPORTED_MODULE_7__["createStore"])(_reducers_counter__WEBPACK_IMPORTED_MODULE_6__["default"]);
 var server = express__WEBPACK_IMPORTED_MODULE_3___default()();
 server.disable('x-powered-by').use(express__WEBPACK_IMPORTED_MODULE_3___default.a["static"]("/Users/oreo/Projets/create_appeo/public")).get('/*', function (req, res) {
   var context = {};
-  var markup = Object(react_dom_server__WEBPACK_IMPORTED_MODULE_4__["renderToString"])(react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["StaticRouter"], {
+  var markup = Object(react_dom_server__WEBPACK_IMPORTED_MODULE_5__["renderToString"])(react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_4__["Provider"], {
+    store: store,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["StaticRouter"], {
     context: context,
     location: req.url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 21
     }
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_0__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 22
     }
-  })));
+  }))));
 
   if (context.url) {
     res.redirect(context.url);
@@ -1614,6 +1663,17 @@ module.exports = require("react-router-dom/Route");
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-dom/Switch");
+
+/***/ }),
+
+/***/ "redux":
+/*!************************!*\
+  !*** external "redux" ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("redux");
 
 /***/ })
 

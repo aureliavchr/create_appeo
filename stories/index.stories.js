@@ -4,6 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import Home from '../src/app/components/Home';
+import Technologies from '../src/app/components/Technologies';
 
 import { Button, Welcome } from '@storybook/react/demo';
 
@@ -18,6 +19,7 @@ storiesOf('Button', module)
       </span>
     </Button>
   ));
-
-storiesOf('Plop', module)
-  .add('Home', () => <Home />);
+ 
+storiesOf('Site', module)
+  .add('Home', () => <Home />)
+  .add('Technologies', () => <Technologies />);

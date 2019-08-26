@@ -4,9 +4,3 @@ function mapDispatchToProps(dispatch) {
      decrement: () => dispatch({type: 'DECREMENT'})
     };
 }
-
-// export const addTodo = text => ({
-//   type: 'ADD_TODO',
-//   id: nextTodoId++,
-//   text
-// })

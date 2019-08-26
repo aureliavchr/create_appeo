@@ -23,7 +23,7 @@ module.exports =
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "df5302f9f0cd770c00e6";
+/******/ 	var hotCurrentHash = "f82f7ce38429a9e3434e";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -985,74 +985,6 @@ var App = function App() {
 
 /***/ }),
 
-/***/ "./src/app/components/Counter.jsx":
-/*!****************************************!*\
-  !*** ./src/app/components/Counter.jsx ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "@babel/runtime/helpers/classCallCheck");
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "@babel/runtime/helpers/createClass");
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "@babel/runtime/helpers/possibleConstructorReturn");
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "@babel/runtime/helpers/getPrototypeOf");
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "@babel/runtime/helpers/inherits");
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _styles_Home_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/Home.scss */ "./src/styles/Home.scss");
-/* harmony import */ var _styles_Home_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_scss__WEBPACK_IMPORTED_MODULE_6__);
-
-
-
-
-
-var _jsxFileName = "/Users/oreo/Projets/create_appeo/src/app/components/Counter.jsx";
- //styles
-
-
-
-var Counter =
-/*#__PURE__*/
-function (_Component) {
-  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default()(Counter, _Component);
-
-  function Counter() {
-    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Counter);
-
-    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default()(Counter).apply(this, arguments));
-  }
-
-  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Counter, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9
-        }
-      }, "Ici, il y aura un boutton Redux"));
-    }
-  }]);
-
-  return Counter;
-}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (Counter);
-
-/***/ }),
-
 /***/ "./src/app/components/Home.jsx":
 /*!*************************************!*\
   !*** ./src/app/components/Home.jsx ***!
@@ -1075,7 +1007,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _Technologies__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Technologies */ "./src/app/components/Technologies.jsx");
-/* harmony import */ var _Counter__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Counter */ "./src/app/components/Counter.jsx");
+/* harmony import */ var _ReduxCounterContainer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ReduxCounterContainer */ "./src/app/components/ReduxCounterContainer.js");
 /* harmony import */ var _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../ressources/logo/react.svg */ "./src/ressources/logo/react.svg");
 /* harmony import */ var _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _styles_Home_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../styles/Home.scss */ "./src/styles/Home.scss");
@@ -1106,17 +1038,18 @@ function (_React$Component) {
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Home, [{
     key: "render",
     value: function render() {
+      // console.log(store.getState)
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "Home",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         }
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "Home-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         }
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         src: _ressources_logo_react_svg__WEBPACK_IMPORTED_MODULE_8___default.a,
@@ -1124,22 +1057,17 @@ function (_React$Component) {
         alt: "logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         }
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         }
       }, "Welcome to Create_appeo")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Technologies__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
-        }
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Counter__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         }
       }));
     }
@@ -1149,6 +1077,122 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ "./src/app/components/ReduxCounter.jsx":
+/*!*********************************************!*\
+  !*** ./src/app/components/ReduxCounter.jsx ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "@babel/runtime/helpers/classCallCheck");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "@babel/runtime/helpers/createClass");
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "@babel/runtime/helpers/possibleConstructorReturn");
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "@babel/runtime/helpers/getPrototypeOf");
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "@babel/runtime/helpers/inherits");
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+var _jsxFileName = "/Users/oreo/Projets/create_appeo/src/app/components/ReduxCounter.jsx";
+
+
+var ReduxCounter =
+/*#__PURE__*/
+function (_Component) {
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default()(ReduxCounter, _Component);
+
+  function ReduxCounter(props) {
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, ReduxCounter);
+
+    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default()(ReduxCounter).call(this, props));
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(ReduxCounter, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        }
+      }, this.props.count), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+        onClick: this.props.decrement,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        }
+      }, "-"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+        onClick: this.props.increment,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        }
+      }, "+"));
+    }
+  }]);
+
+  return ReduxCounter;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (ReduxCounter);
+
+/***/ }),
+
+/***/ "./src/app/components/ReduxCounterContainer.js":
+/*!*****************************************************!*\
+  !*** ./src/app/components/ReduxCounterContainer.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ReduxCounter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ReduxCounter */ "./src/app/components/ReduxCounter.jsx");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var mapStateToProps = function mapStateToProps(state) {
+  return {
+    count: state
+  };
+};
+
+var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+  return {
+    increment: function increment() {
+      return dispatch({
+        type: 'INCREMENT'
+      });
+    },
+    decrement: function decrement() {
+      return dispatch({
+        type: 'DECREMENT'
+      });
+    }
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(_ReduxCounter__WEBPACK_IMPORTED_MODULE_0__["default"]));
 
 /***/ }),
 
@@ -1526,6 +1570,17 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom/server");
+
+/***/ }),
+
+/***/ "react-redux":
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-redux");
 
 /***/ }),
 

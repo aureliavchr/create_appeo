@@ -4,10 +4,9 @@ import React from 'react';
 import { hydrate } from 'react-dom';
 import { Provider } from 'react-redux';
 import counter from './reducers/counter'
-import { createStore, applyMiddleware } from 'redux';
+import { createStore } from 'redux';
   
 const store = createStore(counter);
-//const store = createStore((counter) => []);
 
 hydrate(
   <Provider store={store}>

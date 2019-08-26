@@ -15,7 +15,7 @@ class Home extends React.Component {
           
         </div>
         <Technologies />
-        {/* <ReduxCounterContainer /> */}
+        <ReduxCounterContainer />
       </div>
     );
   }
